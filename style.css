@@ -1,8 +1,75 @@
-body{
-  background-color: greenyellow;
-  font-family: sans-serif;
+body {
+    background-color: greenyellow;
+    font-family: sans-serif;
+    margin: 0; /* Remove a margem padrão do body */
+    line-height: 1.6; /* Melhora a legibilidade do texto */
 }
-.subtext{
-  color:white;
-  font-size: center;
-}  
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Um tom de cinza escuro para o cabeçalho */
+    color: white;
+    padding: 1em 0; /* Espaçamento interno superior e inferior */
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 900px; /* Limita a largura do conteúdo para melhor leitura */
+    margin: auto; /* Centraliza o conteúdo principal */
+    background-color: #fff; /* Fundo branco para o conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 2em; /* Espaçamento entre as seções */
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid greenyellow; /* Uma linha abaixo do título da seção */
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Estilos para as figuras (imagens e legendas) */
+figure {
+    margin: 1em 0;
+    text-align: center; /* Centraliza a imagem e a legenda */
+}
+
+figure img {
+    max-width: 100%;
+    height: auto; /* Garante que a imagem se ajuste proporcionalmente */
+    display: block; /* Remove o espaço extra abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem se ela for menor que o container */
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.5em;
+}
+
+/* Estilos para o subtexto (se você usar essa classe em algum lugar) */
+.subtext {
+    color: white;
+    font-size: 0.9em; /* Tamanho da fonte um pouco menor */
+    text-align: center; /* **Corrigido para centralizar o texto** */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+} 
