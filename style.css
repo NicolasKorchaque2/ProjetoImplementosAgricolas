@@ -20,7 +20,7 @@ header h1 {
 /* Estilos para o conteúdo principal */
 main {
     padding: 20px;
-    max-width: 900px; /* Limita a largura do conteúdo para melhor leitura */
+    max-width: 1000px; /* Limita a largura do conteúdo para melhor leitura */
     margin: auto; /* Centraliza o conteúdo principal */
     background-color: #fff; /* Fundo branco para o conteúdo principal */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.11111); /* Sombra suave */
