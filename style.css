@@ -13,6 +13,7 @@ header {
     padding: 1em 0; /* Espaçamento interno superior e inferior */
     text-align: center;
     border-bottom: 2px solid #B7107A; /* Uma linha abaixo do título da seção */
+     box-shadow: 0 0 10px rgba(0, 0.1, 0.1, 0.1); /* Sombra suave */
 }
 
 header h1 {
