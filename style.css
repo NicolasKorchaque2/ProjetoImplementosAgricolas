@@ -23,7 +23,7 @@ main {
     max-width: 900px; /* Limita a largura do conteúdo para melhor leitura */
     margin: auto; /* Centraliza o conteúdo principal */
     background-color: #fff; /* Fundo branco para o conteúdo principal */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11111); /* Sombra suave */
 }
 
 /* Estilos para as seções */
@@ -33,7 +33,7 @@ section {
 
 section h2 {
     color: #333;
-    border-bottom: 2px solid greenyellow; /* Uma linha abaixo do título da seção */
+    border-bottom: 2px solid #B7107A; /* Uma linha abaixo do título da seção */
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
