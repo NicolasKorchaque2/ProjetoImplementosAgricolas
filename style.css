@@ -12,7 +12,7 @@ header {
     color: white;
     padding: 1em 0; /* Espaçamento interno superior e inferior */
     text-align: center;
-    border-bottom: 2px solid #B7107A; /* Uma linha abaixo do título da seção */
+    border-bottom: 2px solid #FFB301; /* Uma linha abaixo do título da seção */
      box-shadow: 0 0 10px rgba(0, 0.1, 0.1, 0.1); /* Sombra suave */
 }
 
@@ -22,7 +22,7 @@ header h1 {
 
 /* Estilos para o conteúdo principal */
 main {
-    padding: 20px;
+    padding: 30px;
     max-width: 1000px; /* Limita a largura do conteúdo para melhor leitura */
     margin: auto; /* Centraliza o conteúdo principal */
     background-color: #fff; /* Fundo branco para o conteúdo principal */
